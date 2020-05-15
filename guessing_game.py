@@ -56,7 +56,7 @@ def main_game():
       guess_count += 1
     
     except ValueError: 
-      print("Please enter an integer from 1 - 50!\n")
+      print("Please enter an integer from 1-50!\n")
       continue
     
     else:
