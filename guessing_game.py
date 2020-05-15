@@ -46,7 +46,7 @@ def main_game():
   guess_count = 0
   
   if high_score <= 50:
-    print("\n--------> The current high score is {}! <--------\n".format(high_score))
+    print("\n--------> The current high score is {} guesses <--------\n".format(high_score))
 
   while user_guess != answer:
     
