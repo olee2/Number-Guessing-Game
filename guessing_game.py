@@ -51,18 +51,15 @@ def main_game():
   while user_guess != answer:
     
     try:
-           
       user_guess = input("Guess a number from 1-50: ")
       user_guess = int(user_guess)
       guess_count += 1
     
     except ValueError: 
-      
       print("Please enter an integer from 1 - 50!\n")
       continue
     
     else:
-      
       if user_guess > 50:
         print("You chose a value that is not within the range of numbers for this game.\n")
         
