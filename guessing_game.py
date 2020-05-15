@@ -78,7 +78,7 @@ def main_game():
 
 def start_game():
   
-  print("--------> Welcome to The Number Guessing Game! <--------")
+  print("\n--------> Welcome to The Number Guessing Game! <--------\n")
     
   main_game()
   
