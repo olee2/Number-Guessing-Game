@@ -7,7 +7,7 @@ Project 1 - Number Guessing Game
 import random
 
 
-high_score = 1000
+high_score = 51
 
 
 def correct_answer(number_of_tries):
