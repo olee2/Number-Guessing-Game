@@ -64,10 +64,10 @@ def main_game():
         print("You chose a value that is not within the range of numbers for this game.\n")
         
       elif user_guess < answer:
-        print("It is higher. Try again!\n")
+        print("Too low. Try again!\n")
         
       elif user_guess > answer:
-        print("It is lower. Try again!\n")
+        print("Too high. Try again!\n")
       
       else:
         correct_answer(guess_count)
