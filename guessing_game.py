@@ -31,7 +31,7 @@ def retry():
       main_game()
 
     elif play_again.upper() == "NO":
-      print("The game is ending. Thank you for playing!")
+      print("\nThe game is over. Thank you for playing!")
       exit()  
       
     else:
