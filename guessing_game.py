@@ -60,7 +60,7 @@ def main_game():
       continue
     
     else:
-      if user_guess > 50:
+      if user_guess > 50 or user_guess < 1:
         print("You chose a value that is not within the range of numbers for this game.\n")
         
       elif user_guess < answer:
