@@ -14,8 +14,8 @@ Critera:
 - When run, the program displays an initial intro/welcome message before or above the menu.
 
 - The player receives the correct feedback for their choice:
- - If the solution is higher than the guess, display "It's higher".
- - If the solution is lower than the player's guess, display "It's lower"
+If the solution is higher than the guess, display "It's higher".
+If the solution is lower than the player's guess, display "It's lower"
 
 - When the player chooses to play the game again, a new random number within the range is chosen each time.
 
