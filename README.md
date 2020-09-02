@@ -6,18 +6,28 @@ This is the first program made while doing the Treehouse Python Techdegree cours
 
 The user will be prompted to input a number between 1-50. The goal is to guess the secret number using as few guesses as possible. When the correct number is entered, the user is told how many guesses they used and asked if they would like to try again. If yes, then the current high score will be displayed. 
 
-The secret number is chosen at random. 
 
-There is a couple of steps taken to make sure the user is staying within the range of 1-50; using integers; and when asked to retry answer either YES or NO. 
+Critera:
 
-The program is broken down into a couple of functions. 
+# Program runs, any exceptions are caught and handled, preventing crashes while its running.
 
-The main_game() function is doing most of the work, containing the while-loop that will run until the users guess = the answer. The user will be told if the guess is too low or too high, making it easier for the user to navigate. 
+# When run, the program displays an initial intro/welcome message before or above the menu.
 
-When the users guess = the answer, a new function, correct_answer(), will be called to congratulate the guest and inform of the number of tries. 
+# The player receives the correct feedback for their choice:
+    If the solution is higher than the guess, display "It's higher".
+    If the solution is lower than the player's guess, display "It's lower"
 
-After the correct_answer() function is done, the main_game() will check if the last attempt beat the current high score before it ends. If so, the high score is updated. 
+# When the player chooses to play the game again, a new random number within the range is chosen each time.
 
-At last, the retry() function will run to prompt the user to retry. If yes the main_game() is run; if no, the game ends. 
+# The player cannot enter a number that is outside the number range. If the player tries they are informed that number was not a valid option and to try again.
 
-The start_game() function contains a welcome message and runs the other functions. 
+# Display a high score (number of least guesses) at the start of a new game so the player knows the goal they are trying to beat.
+
+# Instead of just ending the game each time, ask the user if they would like to play again.
+    If yes, then cycle the user back into guessing a number again.
+    If no, then provide the user with an ending/quit/goodbye message.
+
+
+
+
+
