@@ -24,8 +24,8 @@ If the solution is lower than the player's guess, display "It's lower"
 - Display a high score (number of least guesses) at the start of a new game so the player knows the goal they are trying to beat.
 
 - Instead of just ending the game each time, ask the user if they would like to play again.
-    If yes, then cycle the user back into guessing a number again.
-    If no, then provide the user with an ending/quit/goodbye message.
+If yes, then cycle the user back into guessing a number again.
+If no, then provide the user with an ending/quit/goodbye message.
 
 
 
