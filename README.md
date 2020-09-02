@@ -9,13 +9,13 @@ The user will be prompted to input a number between 1-50. The goal is to guess t
 
 Critera:
 
-# Program runs, any exceptions are caught and handled, preventing crashes while its running.
+- Program runs, any exceptions are caught and handled, preventing crashes while its running.
 
-# When run, the program displays an initial intro/welcome message before or above the menu.
+- When run, the program displays an initial intro/welcome message before or above the menu.
 
 - The player receives the correct feedback for their choice:
-    If the solution is higher than the guess, display "It's higher".
-    If the solution is lower than the player's guess, display "It's lower"
+ - If the solution is higher than the guess, display "It's higher".
+ - If the solution is lower than the player's guess, display "It's lower"
 
 - When the player chooses to play the game again, a new random number within the range is chosen each time.
 
