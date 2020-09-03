@@ -5,17 +5,17 @@ high_score = 51
 
 
 def correct_answer(number_of_tries):
-"""Gives the user feedback when the correct answer is guessed"""
+    """Gives the user feedback when the correct answer is guessed"""
   
     if number_of_tries == 1:
         print("You got it on the first attempt. Excellent performance!\n")
     
     else: 
-        print("You got it on {} tries. Well done!\n".format(number_of_tries)) 
+        print("You got it on {} tries. Well done!\n".format(number_of_tries))
 
 
 def retry():
-"""Restarts the game if the user would like to retry."""
+    """Restarts the game if the user would like to retry."""
   
     play_again = ""
 
@@ -35,12 +35,12 @@ def retry():
 
       
 def main_game():
-"""
-The game loop.
-Assigns a random integer as the answer.
-Prompts the user for a guess and verifies that it is valid.
-Directs the user to go higher or lower based on their wrong guess. 
-""" 
+    """
+    The game loop.
+    Assigns a random integer as the answer.
+    Prompts the user for a guess and verifies that it is valid.
+    Directs the user to go higher or lower based on their wrong guess. 
+    """ 
   
     global high_score
     
@@ -49,7 +49,8 @@ Directs the user to go higher or lower based on their wrong guess.
     guess_count = 0
     
     if high_score <= 50:
-        print("\n--------> The current high score is {} guesses <--------\n".format(high_score))
+        print("\n--------> The current high score is {} guesses"
+              " <--------\n".format(high_score))
 
     while user_guess != answer:
       
@@ -64,7 +65,8 @@ Directs the user to go higher or lower based on their wrong guess.
         
         else:
             if user_guess > 50 or user_guess < 1:
-                print("You chose a value that is not within the range of numbers for this game.\n")
+                print("You chose a value that is not within the range "
+                      "of numbers for this game.\n")
               
             elif user_guess < answer:
                 print("Too low. Try again!\n")
